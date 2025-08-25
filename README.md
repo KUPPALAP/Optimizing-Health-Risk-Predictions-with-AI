@@ -1,9 +1,9 @@
 ## Optimizing Health Risk Predictions with AI and Data Accuracy
-Project Overview
+# Project Overview
 
 This project focuses on enhancing healthcare risk prediction by improving the quality of data in Electronic Health Records (EHRs). By integrating advanced machine learning models with robust preprocessing methods, the project demonstrates how AI can support clinical decision-making, hospital discharge planning, and patient-centered care.
 
-Key Contributions:
+# Key Contributions:
 
 Improved EHR data preprocessing (imputation, outlier handling, scaling).
 
@@ -15,7 +15,7 @@ Achieved up to 98.6% accuracy with strong recall/precision scores.
 
 Developed interpretable Power BI dashboards and visualizations.
 
-Project Structure
+# Project Structure
 
 final code.ipynb → Main Jupyter Notebook containing data preprocessing, feature engineering, modeling, and evaluation.
 
@@ -25,7 +25,7 @@ Final Presentation.pptx → Project presentation slides summarizing methodology,
 
 README.md → Documentation of the project (this file).
 
- Installation & Setup
+#  Installation & Setup
 Requirements
 
 Make sure you have the following installed:
@@ -34,17 +34,17 @@ Python 3.8+
 
 Jupyter Notebook
 
-Libraries:
+# Libraries:
 
 pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn
 
-Dataset
+# Dataset
 
 The dataset EHR.csv should be placed in the project directory.
 
 Missing values and outliers are handled automatically in preprocessing steps.
 
-Running the Project
+# Running the Project
 
 Open Jupyter Notebook:
 
@@ -63,7 +63,7 @@ Train and evaluate multiple machine learning models.
 
 Generate evaluation metrics (accuracy, precision, recall, F1, ROC/AUC).
 
-Results
+# Results
 
 Logistic Regression: 98.6% accuracy, perfect recall for “True” cases.
 
